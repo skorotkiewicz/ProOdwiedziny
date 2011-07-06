@@ -1,0 +1,177 @@
+/*
+// Skrypt OdwiedzinyPro ver 2.0
+// Wszelkie prawa zastrzeżone!
+// Copyright © 2011 ITUnix.eu. All rights reserved. 
+*/
+/* Page styles */
+
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin-top:20px;
+	color:#51555C;
+}
+
+
+/* Page styles */
+
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin-top:20px;
+	color:#51555C;
+}
+
+
+/* Form & timeline styles */
+
+#twitter-container{
+	-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+	
+	border:6px solid #f5f5f5;
+	
+	padding:10px;
+	width:600px;
+	
+	font-size:11px;
+	font-family:'Lucida Grande',sans-serif;
+	color:#333333;
+}
+
+label{
+	font-size:20px;
+	display:block;
+}
+
+.counter{
+	color:#CCCCCC;
+	float:right;
+	font-family:Georgia,serif;
+	font-size:32px;
+	font-weight:bold;
+	height:40px;
+	overflow:hidden;
+}
+
+
+
+.clear{
+	clear:both;
+}
+
+.submitButton{
+	color:#666666;
+	font-size:14px;
+	height:32px;
+	width:115px;
+	
+	-moz-border-radius:6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+	
+	border:1px solid #cccccc;
+	
+	cursor:pointer;
+
+}
+
+.submitButton:hover{
+	background-position:bottom;
+	border-color:#dddddd;
+	color:#333333;
+}
+
+.inact,.inact:hover{
+	background:#f5f5f5;
+	border:1px solid #eeeeee;
+	color:#aaaaaa;
+	cursor:auto;
+}
+
+.latest{
+	color: #666666;
+}
+
+ul.statuses{
+	margin:10px 0;
+}
+
+ul.statuses li {
+	position:relative;
+	border-bottom:1px dashed #D2DADA;
+	padding:15px 15px 15px 10px;
+	list-style:none;
+	font-size:14px;
+}
+
+ul.statuses li:first-child{
+	border-top:1px dashed #D2DADA;
+}
+
+ul.statuses li:hover {
+	background-color:#F7F7F7;
+}
+
+h3.timeline{
+	margin-top:20px;
+	color:#999999;
+	font-size:20px;
+	font-weight:normal;
+}
+
+div.tweetTxt{
+	float:left;
+	width:498px;
+	overflow:hidden;
+}
+
+ul.statuses a img.avatar{
+	float:left;
+	margin-right:10px;
+	border:1px solid #446600;
+}
+div.date{
+	line-height:18px;
+	font-size:12px;
+	color:#999999;
+}
+
+li a, li a:visited {
+	color:#007bc4;
+	text-decoration:none;
+	outline:none;
+}
+
+li a:hover{
+	text-decoration:underline;
+}
+
+
+
+a {
+	color:#007bc4;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+.SplashInfo{margin:80px
+0;border-top:1px solid #a5d0e7;border-bottom:1px solid #a5d0e7;background:#e2f4ff}#Content .SplashInfo
+h1{font-family:"Helvetica Neue",Helvetica,arial,sans-serif;background:transparent;text-align:center;border:none;border-top:1px solid #fff;color:#02455B;font-size:300%;text-shadow:0 1px 0 #FFF;padding:10px
+0 0;margin:0;line-height:1}#Content .SplashInfo
+p{font-family:"Helvetica Neue",Helvetica,arial,sans-serif;text-align:center;border-bottom:1px solid #fff;margin:0;padding:0
+0 10px;color:#076C8E;font-size:20px}
