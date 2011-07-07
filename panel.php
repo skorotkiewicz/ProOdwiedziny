@@ -257,8 +257,13 @@ $avatar = $row['awatar'];
 }
 ?>
 <a class="pagination"><?=$pagination?></a>
+
+</div>
+	</ul> 
+	</div>
+	</div>
+</div>
 <?php
-echo '</div></ul> </div></div></div>';
 } 
 }
 ?>
