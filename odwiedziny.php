@@ -34,9 +34,4 @@ $uidDone 	= substr($uid,0,5);
   $_SESSION['user'] = $uidDone;
   mysql_query("INSERT INTO $tabela SET ip='".$ip."', useragent='".$useragent."', godzina='".$godzina."', uid='".$uidDone."', nick='".clean_text($_GET['guest_nick'])."', link='".clean_text($_GET['guest_id'])."', awatar='".$_GET['guest_avatar']."' "); 
 
-
-
-
-
-
 ?>
