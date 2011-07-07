@@ -256,11 +256,6 @@ $avatar = $row['awatar'];
 <?php	
 }
 ?>
-<style>
-.pagination a {font-size: 22px;color: #999999;}
-.disabled {display: none;}
-.current {padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px; border: 1px solid #c0c0c0;font-size: 22px;color: #999999;}
-</style>
 <a class="pagination"><?=$pagination?></a>
 <?php
 echo '</div></ul> </div></div></div>';
