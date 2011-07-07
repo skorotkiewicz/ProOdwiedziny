@@ -14,6 +14,4 @@ $id = mysql_escape_String($id);
 $sql = "DELETE FROM $tabela WHERE id='$id'";
 mysql_query( $sql);
 }
-
-
 ?>
