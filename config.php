@@ -24,6 +24,5 @@ $adminPassword = 'admin'; // Twoje hasło do panelu odwiedziń
 
 // Poniżej proszę nic nie zmieniać!
 mysql_connect($hostname, $username, $password) or die(mysql_error());
-mysql_select_db($database) or die(mysql_error()); 
-
+mysql_select_db($database) or die(mysql_error());
 ?>
