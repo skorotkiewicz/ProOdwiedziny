@@ -256,6 +256,7 @@ $avatar = $row['awatar'];
 <?php	
 }
 ?>
+
 <a class="pagination"><?=$pagination?></a>
 
 </div>
