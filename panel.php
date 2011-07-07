@@ -62,16 +62,11 @@ if ($_POST['pass'] == $adminPassword) {
 if ($_SESSION[$session]) {
 ?>
 
-
-<div class="menu">
 Witaj! 
 <a href="panel.php">Odwiedziny</a> | 
-<a href="?podstrona=nick">Usuń odwiedzającego</a> | 
+<a href="?podstrona=nick">Usuń wszystkie odwiedziny danego użytkownika</a> | 
 <a href="?podstrona=logout">Wyloguj</a>
-</div>
 <hr />
-
-<div class="body">
 
 <?php
 
@@ -86,12 +81,8 @@ header('Location: panel.php');
 elseif ($_GET['podstrona'] == 'nick') {
 ?>
 	<form action="?podstrona=nick" method="post">
-		<h3>Tutaj możesz usuwać wszystkie odwiedziny danego użytkownika.</h3>
-		<p>Podaj Nick osoby którą chcesz usunąć z listy odwiedziń (nie można cofnąc zmian):</p>
-		<p><br />
-		Nick: <input type="text" name="nick">
-		<input type="submit" class="submit" value="Kliknij aby usunąć..." >
-		</p>
+		Podaj Nick osoby którą chcesz usunąć z listy odwiedziń: <input type="text" name="nick">
+		<input type="submit" value="Usuń..." >
 	</form>
 <?php
 
@@ -289,7 +280,6 @@ else {
 	</ul> 
 	</div>
 	</div>
-</div>
 </div>
 <?php
 } 
