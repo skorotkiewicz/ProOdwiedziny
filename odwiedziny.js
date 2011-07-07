@@ -1,4 +1,3 @@
-
 // Skrypt OdwiedzinyPro ver 2.0
 // Wszelkie prawa zastrzeżone!
 // Copyright © 2011 ITUnix.eu. All rights reserved. 
