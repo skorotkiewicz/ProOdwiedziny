@@ -16,39 +16,6 @@ body{
 }
 
 
-.body {
-	border: 0px solid;
-	width: 650px;
-	margin: 0 auto 0 auto; 
-	background-color: #fff;
-}
-
-.menu {
-	padding-left: 20px;
-	color: #525252;
-	font-size: 16px;
-}
-
-
-input {
-	width: 200px; 
-	border: 1px solid #c0c0c0;
-	background-color: #fff;
-	color: #525252;
-	font-size: 16px;
-	font-style: italic;
-}
-
-input.submit:hover {
-	width: 200px; 
-	border: 1px solid #c0c0c0;
-	background-color: #fff;
-	color: #525252;
-	font-size: 16px;
-	font-style: italic;
-	font-weight: bold;
-}
-
 /* Page styles */
 
 body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
