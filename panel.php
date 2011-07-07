@@ -229,21 +229,38 @@ else {
 <?php
 		while($row = mysql_fetch_array($result))
 		{
-
+// jezeli nie ma awatara
 if(!$row['awatar']) {	
-$avatar = 'http://avatars.zapytaj.com.pl/noimg.gif';
+	$avatar = 'http://avatars.zapytaj.com.pl/noimg.gif';
 }
 else {
-$avatar = $row['awatar'];
+	$avatar = $row['awatar'];
 }
+
+// jezeli nie ma nicku
+if(!$row['nick']) {	
+	$nick = 'Niezalogowany';
+}
+else {
+	$nick = $row['nick'];
+}
+
+// jezeli nie ma linku do profilu
+if(!$row['link']) {	
+	$link = '<a>';
+}
+else {
+	$link = '<a href="http://zapytaj.com.pl/Profile/user_'.$row['link'].'.html" target="_blank">';
+}
+
 
 ?>	
 <?php echo '<li class="bar'.$row['id'].'">'; ?>
 
-	<a href="http://zapytaj.com.pl/Profile/user_<?php echo $row['link']; ?>.html" target="_blank"><img class="avatar" src="<?php echo $avatar; ?>" width="48" height="48" alt="avatar" /></a>
+	<?php echo $link; ?><img class="avatar" src="<?php echo $avatar; ?>" width="48" height="48" alt="avatar" /></a>
 
 	<div class="tweetTxt">
-	<strong><a href="http://zapytaj.com.pl/Profile/user_<?php echo $row['link']; ?>.html" target="_blank"><?php echo $row['nick']; ?></a></strong> <?php echo $row['godzina']; ?>
+	<strong><?php echo $link; ?><?php echo $nick; ?></a></strong> <?php echo $row['godzina']; ?>
 
 	<a href="#" id="<?php echo $row['id']; ?>" class="delete_update submitButton" style="float:right">[ USUŃ #<?php echo $row['id']; ?> ]</a>
 
