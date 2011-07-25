@@ -18,7 +18,7 @@ document.write('<iframe width="1" height="1" frameborder="0" src="http://TWOJADO
 
 
 
-=== Aktualizacja do wersji 2.1 ===
+=== Aktualizacja z 2.0 do wersji 2.1 ===
 Dodanie nowej tabelki:
 
 CREATE TABLE IF NOT EXISTS `wyswietlenia` (
