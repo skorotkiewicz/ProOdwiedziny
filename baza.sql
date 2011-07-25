@@ -1,5 +1,5 @@
 ---
---- Skrypt OdwiedzinyPro ver 2.0
+--- Skrypt OdwiedzinyPro ver 2.1
 --- Wszelkie prawa zastrzeżone!
 --- Copyright © 2011 ITUnix.eu. All rights reserved. 
 ---
@@ -15,3 +15,9 @@ CREATE TABLE IF NOT EXISTS `odwiedziny` (
   `awatar` text NOT NULL,
   KEY `id` (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE TABLE IF NOT EXISTS `wyswietlenia` (
+  `wyswietlenia` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+INSERT INTO `wyswietlenia` (`wyswietlenia`) VALUES
+(0);

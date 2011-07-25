@@ -1,6 +1,6 @@
 <?php session_start(); ob_start();  
  
-// Skrypt OdwiedzinyPro ver 2.0
+// Skrypt OdwiedzinyPro ver 2.1
 // Wszelkie prawa zastrzeżone!
 // Copyright © 2011 ITUnix.eu. All rights reserved. 
 ?>
@@ -68,6 +68,17 @@ Witaj!
 <a href="panel.php">Odwiedziny</a> | 
 <a href="?podstrona=nick">Usuń odwiedzającego</a> | 
 <a href="?podstrona=logout">Wyloguj</a>
+<?php
+$getcom = mysql_query('SELECT * FROM `wyswietlenia` LIMIT 0, 30 ');
+	while($row=mysql_fetch_array($getcom)){
+echo ' <p style="float: right;">Liczba odwiedziń twojego profilu: '.$row['wyswietlenia'].'</p> ';  
+}
+
+
+$getcom = mysql_query('SELECT * FROM `'.$tabela.'` ');
+$iloscWpisow = mysql_num_rows($getcom);
+echo ' <p style="float: right;">Liczba wpisów: '.$iloscWpisow.' | </p> ';  
+?>
 </div>
 <hr />
 

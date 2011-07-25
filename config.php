@@ -1,6 +1,6 @@
 <?php
 
-// Skrypt OdwiedzinyPro ver 2.0
+// Skrypt OdwiedzinyPro ver 2.1
 // Wszelkie prawa zastrzeżone!
 // Copyright © 2011 ITUnix.eu. All rights reserved. 
 
