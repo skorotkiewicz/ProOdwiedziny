@@ -7,7 +7,7 @@ Instalacja
 
 1. Otwórz plik config.php i usupełnij go poprawnie.
 2. Otwórz plik odwiedziny.js i podaj poprawy adres do odwiedziny.php
-   Zmień http://DOMENA.TLD/ na swoją domenę
+   Zmień http://TWOJADOMENA.TLD/ na swoją domenę
 
 document.write('<iframe width="1" height="1" frameborder="0" src="http://TWOJADOMENA.TLD/odwiedziny.php'+
 
