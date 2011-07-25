@@ -1,4 +1,4 @@
-Skrypt OdwiedzinyPro ver 2.0
+Skrypt OdwiedzinyPro ver 2.1
 Wszelkie prawa zastrzeżone!
 Copyright © 2011 ITUnix.eu. All rights reserved. 
 
@@ -9,7 +9,7 @@ Instalacja
 2. Otwórz plik odwiedziny.js i podaj poprawy adres do odwiedziny.php
    Zmień http://DOMENA.TLD/ na swoją domenę
 
-document.write('<iframe width="1" height="1" frameborder="0" src="http://DOMENA.TLD/odwiedziny.php'+
+document.write('<iframe width="1" height="1" frameborder="0" src="http://TWOJADOMENA.TLD/odwiedziny.php'+
 
 3. Dodaj kod na swój profil Zapytaj
-   <script type="text/javascript" src="http://DOMENA.TLD/odwiedziny.js"></script>
+   <script type="text/javascript" src="http://TWOJADOMENA.TLD/odwiedziny.js"></script>

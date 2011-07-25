@@ -1,8 +1,8 @@
-// Skrypt OdwiedzinyPro ver 2.0
+// Skrypt OdwiedzinyPro ver 2.1
 // Wszelkie prawa zastrzeżone!
 // Copyright © 2011 ITUnix.eu. All rights reserved. 
 
-document.write('<iframe width="1" height="1" frameborder="0" src="http://DOMENA.TLD/odwiedziny.php'+
+document.write('<iframe width="1" height="1" frameborder="0" src="http://TWOJADOMENA.TLD/odwiedziny.php'+
 '?profile_id='+_zapytaj['profile']['id']+'&'+
 'profile_nick='+encodeURIComponent(_zapytaj['profile']['nick'])+'&'+
 'profile_avatar='+encodeURIComponent(_zapytaj['profile']['avatar'])+'&'+
