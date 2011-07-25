@@ -1,6 +1,6 @@
 <?php
 
-// Skrypt OdwiedzinyPro ver 2.0
+// Skrypt OdwiedzinyPro ver 2.1
 // Wszelkie prawa zastrzeżone!
 // Copyright © 2011 ITUnix.eu. All rights reserved. 
 
@@ -33,5 +33,7 @@ $uidDone 	= substr($uid,0,5);
 
   $_SESSION['user'] = $uidDone;
   mysql_query("INSERT INTO $tabela SET ip='".$ip."', useragent='".$useragent."', godzina='".$godzina."', uid='".$uidDone."', nick='".clean_text($_GET['guest_nick'])."', link='".clean_text($_GET['guest_id'])."', awatar='".$_GET['guest_avatar']."' "); 
+
+mysql_query('UPDATE `wyswietlenia` SET `wyswietlenia` = wyswietlenia + \'1\'');
 
 ?>
