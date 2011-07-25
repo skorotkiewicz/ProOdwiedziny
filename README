@@ -13,3 +13,20 @@ document.write('<iframe width="1" height="1" frameborder="0" src="http://TWOJADO
 
 3. Dodaj kod na swój profil Zapytaj
    <script type="text/javascript" src="http://TWOJADOMENA.TLD/odwiedziny.js"></script>
+
+
+
+
+
+=== Aktualizacja do wersji 2.1 ===
+
+Dodanie nowej tabelki:
+
+CREATE TABLE IF NOT EXISTS `wyswietlenia` (
+  `wyswietlenia` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+INSERT INTO `wyswietlenia` (`wyswietlenia`) VALUES
+(0);
+
+
+Zaktualizuj nowe pliki panel.php i odwiedziny.php.
