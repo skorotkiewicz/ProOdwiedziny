@@ -1,0 +1,12 @@
+Aktualizacja do wersji 2.1
+
+Dodanie nowej tabelki:
+
+CREATE TABLE IF NOT EXISTS `wyswietlenia` (
+  `wyswietlenia` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+INSERT INTO `wyswietlenia` (`wyswietlenia`) VALUES
+(0);
+
+
+Zaktualizuj nowe pliki panel.php i odwiedziny.php.
